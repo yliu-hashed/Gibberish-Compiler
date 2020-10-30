@@ -8,7 +8,7 @@ Before getting started, __please [project summary](/README.md) to get to know th
    * This includes paid Minecraft Bedrock edition, and the free Minecraft Education Edition. 
    * __Minecraft Java edition will not work!__
    * If you open your Minecraft game, and the title says: __Minecraft with no subtitle__ or __Minecraft with Education Edition as a Subtitle__, it will likely work. 
-2. Download the [MC world file](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/) from the releases. 
+2. Download the [MC world file](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/latest) from the releases. 
 
 # Gibberish Compiler
 ## Install the Program
@@ -17,7 +17,7 @@ Before getting started, __please [project summary](/README.md) to get to know th
 
 ## Compile From Source
 1. Download __Processing__ from the [official website](https://processing.org).
-2. Download the [sourcecode](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU) from home page, or download the sourcecode for the [latest release](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/). 
+2. Download the [sourcecode](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU) from home page, or download the sourcecode for the [latest release](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/latest). 
 3. Open Processing
 4. Open the file /Gibberish_Compiler/Gibberish_Compiler.pde using Processing
    * do not change the name of __Gibberish_Compiler__ folder. 
