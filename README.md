@@ -9,7 +9,8 @@ This project is split into two parts:
 * Gibberish Compiler
    * Exsist in this repo
 * Minecraft World File of the actual Computer 
-   * Exsist in a subrepo called [MCBE-Scott-CPU](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World). It will be released in this repo. 
+   * __File exsist in a subrepo called _[MCBE-Scott-CPU](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World)_. It will be released in this repo.__
+   * __Documentations will exsist in this repo.__
 ## Gibberish Compiler
 This compiler is made to compile basic programs for the Minecraft Computer. 
 
@@ -20,3 +21,4 @@ This program made by using [Processing](https://processing.org) which is a progr
 Note: Java may need to be installed for this program to run. 
 
 ## Scott Computer Minecraft World
+Note: the files of this Minecraft World exsists in a subrepo called _[MCBE-Scott-CPU](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World)_ (only the files, documents and releases is in this repo).
