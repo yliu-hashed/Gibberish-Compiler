@@ -15,12 +15,18 @@ This project is split into two parts:
 ## Scott Computer Minecraft World
 Note: the files of this Minecraft World exsists in a subrepo called _[MCBE-Scott-CPU](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World)_ (only documentation of that project exsist in this repo).
 
-This is a Minecraft adoptation of the famous Scott CPU in the book But how do it knows **But How Do It Know? The Basic Principles of Computers for Everyone_**. 
+This is a Minecraft adoptation of the famous Scott CPU in the book But how do it knows **_But How Do It Know? The Basic Principles of Computers for Everyone_**. 
+
+![Minecraft Computer](/Documents/images/image_002.png)
+
+The computer is binary compatible with the Scott CPU, with a modified IO port (see in the Documentations). 
+
+It could be used as a teaching tool for teachers, or a gadget for someone like me to learn about computer architecture in a intuitive way. 
 
 ## Gibberish Compiler
 This compiler is made to compile basic programs for the Minecraft Computer. 
 
-![iiiii](/Documents/images/image_000.png)
+![Example Image of a Multiplication Code](/Documents/images/image_000.png)
 
 This program made by using [Processing](https://processing.org) which is a program made for learning Java (highly reconmemded if you want to start coding), this program can also be a example of a effective application made by Processing, which could used as a teaching and learning tool. 
 
