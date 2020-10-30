@@ -7,7 +7,9 @@ __Get started [here](/Documents/get_started.md)__
 ## Project Structures
 This project is split into two parts: 
 * Gibberish Compiler
+   * Exsist in this repo
 * Minecraft World File of the actual Computer 
+   * Exsist in a subrepo called [MCBE-Scott-CPU](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World). It will be released in this repo. 
 ## Gibberish Compiler
 This compiler is made to compile basic programs for the Minecraft Computer. 
 
