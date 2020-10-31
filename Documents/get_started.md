@@ -18,7 +18,7 @@ Note: the world file exsists in a seperate repo: https://github.com/YuandaLiu-Ha
    - To reveal the content of this .mcworld file, change the .mcworld file extension into .zip file and unzip it. 
 4. Open your minecraft client. If the world appears in your world list, the import is successful. 
 
-Now you are able to fully explore your world. See the world summary to fully explore this world, or you can explore it yourself. 
+Now you are able to fully explore your world. See the [world summary](/Documents/world/summary.md) to fully explore this world, or you can explore it yourself. 
 
 # Gibberish Compiler
 ## Install the Program
@@ -36,4 +36,4 @@ Now you are able to fully explore your world. See the world summary to fully exp
    * processing requires the name of the folder to the the name of the main .pde file. Changing this name will likely cause Processing to fail to open the codes.
 5. Build and Run the program. 
 
-Now you are able to fully explore this app. See the app summary to fully explore the capability of this app, or you can explore it yourself. 
+Now you are able to fully explore this app. See the [program summary](/Documents/compiler/summary.md) to fully explore the capability of this app, or you can explore it yourself. 
