@@ -4,6 +4,8 @@ This is a Minecraft(bedrock) adoptation of the famous Scott CPU in the book **_B
 
 __Get started [here](/Documents/get_started.md)__
 
+__This project is in it's very early stage. Instructions and Documentations is expected to be missing or unclear.__
+
 ## Project Structures
 This project is split into two parts: 
 * Gibberish Compiler
