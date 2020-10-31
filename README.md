@@ -25,7 +25,7 @@ It could be used as a teaching tool for teachers, or a gadget for someone like m
 
 It have a 256 bit RAM. The program and data is all stored in the RAM. IO devices could be connected to the IO port. 
 
-Instructions is __[here](/Documents/get_started.md)__ if you want to get started. 
+Instructions is __[here](/Documents/get_started.md#Scott-CPU-Minecraft-World)__ if you want to get started. 
 
 ## Gibberish Compiler
 This compiler is made to compile basic programs for the Minecraft Computer. 
@@ -38,4 +38,4 @@ This program can also be a example of a effective application made by __Processi
 
 Note: Java may need to be installed for this program to run. 
 
-Instructions is __[here](/Documents/get_started.md)__ if you want to get started.
+Instructions is __[here](/Documents/get_started.md#Gibberish-Compiler)__ if you want to get started.
