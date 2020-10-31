@@ -1,7 +1,7 @@
 # Get Started
 
 This document illustrates how to properly setup this project. 
-Before getting started, __please [project summary](/README.md) to get to know the project__.
+Before getting started, __please read the [README.md](/README.md) to get to know the project__.
 
 # Scott CPU Minecraft World
 Note: the world file exsists in a seperate repo: https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World.
