@@ -23,11 +23,19 @@ The computer is binary compatible with the Scott CPU, with a modified IO port (s
 
 It could be used as a teaching tool for teachers, or a gadget for someone like me to learn about computer architecture in a intuitive way. 
 
+It have a 256 bit RAM. The program and data is all stored in the RAM. IO devices could be connected to the IO port. 
+
+Instructions is __[here](/Documents/get_started.md)__ if you want to get started. 
+
 ## Gibberish Compiler
 This compiler is made to compile basic programs for the Minecraft Computer. 
 
 ![Example Image of a Multiplication Code](/Documents/images/image_000.png)
 
-This program made by using [Processing](https://processing.org) which is a program made for learning Java (highly reconmemded if you want to start coding), this program can also be a example of a effective application made by Processing, which could used as a teaching and learning tool. 
+This program made by using [Processing](https://processing.org) which is a program made for learning Java (highly reconmemded if you want to start coding). 
+This app can be a effective application to learn basic processing using my custom programming launguage I made called __Gibberish__. 
+This program can also be a example of a effective application made by __Processing__, which could used as a teaching and learning tool. 
 
 Note: Java may need to be installed for this program to run. 
+
+Instructions is __[here](/Documents/get_started.md)__ if you want to get started.
