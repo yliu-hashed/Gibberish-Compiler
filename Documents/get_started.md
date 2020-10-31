@@ -5,8 +5,8 @@ Before getting started, __please read the [README.md](/README.md) to get to know
 
 # Scott CPU Minecraft World
 Note: the world file exsists in a seperate repo: https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World.
-1. Makesure you have a copy of Minecraft Bedrock Edition. 
-   - This includes paid Minecraft Bedrock edition, and the free Minecraft Education Edition. 
+1. Makesure you have a copy of Minecraft Bedrock Engine. 
+   - This includes the paid __Minecraft Bedrock edition(Win 10, iOS, android ...)__, and the free __Minecraft Education Edition__. 
    - __Minecraft Java edition will not work!__
    - If you open your Minecraft game, and the title says: __Minecraft with no subtitle__ or __Minecraft with Education Edition as a Subtitle__, it will likely work. 
 2. Download the [MC world file](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World/releases/latest) from the releases in the world repo. This file sould have a .mcworld extension to it.
