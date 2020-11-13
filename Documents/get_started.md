@@ -10,7 +10,7 @@ Note: the world file exsists in a seperate repo: https://github.com/YuandaLiu-Ha
    - __Minecraft Java edition will not work!__
    - If you open your Minecraft game, and the title says: __Minecraft with no subtitle__ or __Minecraft with Education Edition as a Subtitle__, it will likely work. 
 2. Download the [MC world file](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World/releases/latest) from the releases in the world repo. This file sould have a .mcworld extension to it.
-   - Note that a certain compiler and a certain computer world may not be compatible. Refer to [versions list](/Documents/versions.md) to see compatible world and compiler versions. 
+   - Note that a certain compiler and a certain computer world may not be compatible. Refer to [versions list](/Documents/versions.rst) to see compatible world and compiler versions. 
 3. Put the .mcworld file into your minecraft world folder. 
    - The world folder sould be generally under something like __Minecraft/games/com.mojang/minecrafttWorlds__ folder. 
    - The minecraft folder's locatoin is __different between devices and operating systems__. 
@@ -23,13 +23,13 @@ Now you are able to fully explore your world. See the [world summary](/Documents
 # Gibberish Compiler
 ## Install the Program
 1. see the [releases](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/) and download the latest release of the compiler according to your operating system. 
-   - Note that a certain compiler and a certain computer world may not be compatible. Refer to [versions list](/Documents/versions.md) to see compatible world and compiler versions. 
+   - Note that a certain compiler and a certain computer world may not be compatible. Refer to [versions list](/Documents/versions.rst) to see compatible world and compiler versions. 
 2. If you cannot figure out what to do. You probably need to stop doing commputer science. 
 
 ## Compile From Source
 1. Download __Processing__ from the [official website](https://processing.org).
 2. Download the [sourcecode](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU) from home page, or download the sourcecode for the [latest release](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/latest). 
-   - Note that a certain compiler and a certain computer world may not be compatible. Refer to [versions list](/Documents/versions.md) to see compatible world and compiler versions. 
+   - Note that a certain compiler and a certain computer world may not be compatible. Refer to [versions list](/Documents/versions.rst) to see compatible world and compiler versions. 
 3. Open Processing
 4. Open the file /Gibberish_Compiler/Gibberish_Compiler.pde using Processing.
    * do not change the name of __Gibberish_Compiler__ folder. 
