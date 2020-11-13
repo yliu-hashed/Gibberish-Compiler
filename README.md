@@ -20,6 +20,9 @@ This project is split into two parts:
    * __File exsist in a subrepo called _[MCBE-Scott-CPU-World](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World)_. It will be released in that repo.__
    * __Documentations will exsist in this repo.__
 
+Compatibility of two part of the project between versions can be found here: [versions.rst](/Documents/versions.rst)
+
+
 ## Scott Computer Minecraft World
 Note: the files of this Minecraft World exsists in a subrepo called _[MCBE-Scott-CPU](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World)_ (only documentation of that project exsist in this repo).
 
