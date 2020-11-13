@@ -8,5 +8,13 @@ This file stated the versions of both the **compiler** and the **MC world**. Thi
 +------------------------------------+------------+------------+------------------------------------+
 | MCBE World Map                                  | Gibberish Compiler                              |
 +====================================+============+============+====================================+
-|First Release                       | 0.0.1 Pre  |  0.0.1 Pre |First Release                       |
+| First Release                      | 0.0.1 Pre  |  0.0.1 Pre |First Release                       |
++------------------------------------+------------+            |                                    +
+| Resolve a bug that prevent user    | 0.0.2 Pre  |            |                                    |
+| from entering instructions to the  |            |            |                                    |
+| RAM.                               |            |            |                                    |
+|                                    |            |            |                                    |
+| Details: MAR does not save properly|            |            |                                    |
+| so every write and read will save  |            |            |                                    |
+| and write to 00.                   |            |            |                                    |
 +------------------------------------+------------+------------+------------------------------------+
