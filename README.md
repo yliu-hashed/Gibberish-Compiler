@@ -6,7 +6,7 @@ World:
 [![Github release](https://img.shields.io/github/downloads/YuandaLiu-Hashed/MCBE-Scott-CPU-World/total.svg)](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World/releases)
 ![Github release](https://img.shields.io/github/repo-size/YuandaLiu-Hashed/MCBE-Scott-CPU-World.svg?color=blue)
 
-This is a Minecraft(bedrock) adoptation of the famous Scott CPU in the book **_But How Do It Know? The Basic Principles of Computers for Everyone_** and Compiler called the **_Gibberish Compiler_** I made of this CPU. 
+This is a Minecraft(bedrock) adoptation of the famous Scott CPU in the book **_But How Do It Know? The Basic Principles of Computers for Everyone_** by J. Clark Scott and Compiler called the **_Gibberish Compiler_** I made of this CPU. 
 
 __Get started [here](/Documents/get_started.md)__
 
