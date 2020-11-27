@@ -46,6 +46,9 @@ CodeBox editor;
 Compiler compiler;
 MachineCodeBox machineCodeBox;
 
+String appName = "Gibberish Development Kit";
+String appVersion = "0.0.2";
+
 void settings() {
   size(1100, 700, FX2D); //P2D FX2D JAVA2D
   pixelDensity(2);
@@ -59,7 +62,7 @@ void setup() {
   refreshGenericColorReference();
 
   surface.setResizable(true);
-  surface.setTitle("Gibberish Development Kit");
+  surface.setTitle(appName + " v" + appVersion);
   frameRate(frameRate);
   colorMode(RGB);
 
@@ -130,5 +133,5 @@ void draw() {
     i.render();
   }
 
-  surface.setTitle("Gibberish Development Kit - " + (hasFileOpened ? programFile.getName() : "New"));
+  surface.setTitle(appName + " v" + appVersion + " - " + (hasFileOpened ? programFile.getName() : "New"));
 }
