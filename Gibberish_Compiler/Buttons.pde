@@ -81,33 +81,6 @@ class SaveButton extends Button {
   }
 }
 
-class SecondWindowButton extends Toggle {
-  
-  void updateSize() {
-    Position = new CGPoint(200.0, 0.0);
-    Size = new CGSize(150.0, 30.0);
-    super.updateSize();
-  }
-  
-  SecondWindowButton() {
-    super("Reference Window", false);
-  }
-  
-  void render() {
-    state = sa != null;
-    super.render();
-  }
-  
-  void changeTo(boolean newState) {
-    super.changeTo(newState);
-    if (newState == true) {
-      startSecondWindow();
-    } else {
-      endSecondWindow();
-    }
-  }
-}
-
 class AutoCompileButton extends Toggle {
   
   void updateSize() {

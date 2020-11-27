@@ -127,7 +127,7 @@ class CodeBox extends scrollableObject {
   void updateSize() {
     
     Position = new CGPoint(0.0, 30.0);
-    Size = new CGSize(screenSize.x-20.0, screenSize.y-30.0);
+    Size = new CGSize(screenSize.x-200.0, screenSize.y-30.0);
     
     BoxShape = createShape();
     BoxShape.beginShape();
@@ -138,7 +138,6 @@ class CodeBox extends scrollableObject {
     BoxShape.vertex(Size.x, 0);
     BoxShape.endShape(CLOSE);
     BoxShape.setStroke(false);
-    BoxShape.setStroke(seperator);
     
     textOffset = textWidth("000") + 10;
     
@@ -290,7 +289,7 @@ class CodeBox extends scrollableObject {
     //forward compiling request
     if (millis() - lastEdited > compilerWaitTime && lastEdited != -1 && s.visible != true && autoCompile) {
       compiler.runCompiler();
-      updateMachineCodeWindow = true;
+      machineCodeBox.updateDisplayContent();
       lastEdited = -1;
     }
   }
@@ -560,7 +559,6 @@ class CodeBox extends scrollableObject {
     selectionAnchorPosition = column;
 
     GenericUpdate();
-    println("onClick");
   }
   
   float automaticScrollingSpeed = 0;
@@ -593,8 +591,6 @@ class CodeBox extends scrollableObject {
     }
     
     scroll(automaticScrollingSpeed);
-    
-    println("onDrag");
   }
 
   void onRelease(CGPoint position) {
@@ -606,8 +602,6 @@ class CodeBox extends scrollableObject {
     } else {
       haveSelection = true;
     }
-    
-    println("onRelease");
   }
   void selectAll() {
     haveSelection = true;
@@ -632,7 +626,6 @@ class CodeBox extends scrollableObject {
     for (int y = sfY; y <= sbY; y ++) {
       String currentLine = Text.get(y);
       String croppedLine = Text.get(y).substring(y == sfY ? sfP : 0, y == sbY ? sbP : currentLine.length());
-      println(croppedLine);
       selectionString += croppedLine;
       if (y != sbY) selectionString += "\n";
     }

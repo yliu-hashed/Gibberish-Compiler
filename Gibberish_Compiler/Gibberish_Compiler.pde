@@ -44,8 +44,7 @@ float frameRate;
 
 CodeBox editor;
 Compiler compiler;
-
-int positionY = 0;
+MachineCodeBox machineCodeBox;
 
 void settings() {
   size(1100, 700, FX2D); //P2D FX2D JAVA2D
@@ -68,28 +67,29 @@ void setup() {
   displayFont50 = loadFont("Font/SFProText-Light-100.vlw");
   textFont(monoFont14, fontSize);
   fontWidth = textWidth(" ");
-
+  
+  //setup compiler
+  compiler = new Compiler();
+  
   //setup code editor
   editor = new CodeBox();
   objects.add(editor);
   objects.add(editor.scrollBar);
   objects.add(new MenuBar());
-
+  
+  //setup codeBox
+  machineCodeBox = new MachineCodeBox();
+  objects.add(machineCodeBox);
+  
   //setup buttons
   objects.add(new AutoCompileButton());
   objects.add(new CompileButton());
   objects.add(new NewButton());
   objects.add(new OpenButton());
   objects.add(new SaveButton());
-
-  objects.add(new SecondWindowButton());
-
-  //setup compiler
-  compiler = new Compiler();
 }
 
 void draw() {
-  positionY = getPosFX(this.getSurface());
   
   frameRateManager.computeFramerate();
   frameRate = frameRateManager.frameRate;
@@ -131,27 +131,4 @@ void draw() {
   }
 
   surface.setTitle("Gibberish Development Kit - " + (hasFileOpened ? programFile.getName() : "New"));
-}
-
-SecondApplet sa;
-
-void startSecondWindow() {
-  sa = new SecondApplet();
-  String[] args = {"Machine Code Preview"};
-  PApplet.runSketch(args, sa);
-}
-
-void endSecondWindow() {
-  sa.exit();
-}
-
-int getPosGL(final PSurface surf) {
-  com.jogamp.newt.opengl.GLWindow win = ((com.jogamp.newt.opengl.GLWindow) surf.getNative());
-  println(win.getY());
-  return win.getY() - win.getInsets().getTotalHeight();
-}
-
-int getPosFX(final PSurface surf) {
-  Stage stage = (Stage) ((Canvas) surf.getNative()).getScene().getWindow();
-  return (int) stage.getY();
 }
