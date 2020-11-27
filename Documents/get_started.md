@@ -1,6 +1,6 @@
 # Get Started
 
-[__NAVIGATIONS__](/Documents/navigations.md)
+[__- NAVIGATIONS -__](/Documents/navigations.md)
 
 This document illustrates how to properly setup this project. 
 Before getting started, __please read the [README.md](/README.md) to get to know the project__.
@@ -42,4 +42,4 @@ Note: If the packaged application does not work, please ##compile from source## 
 
 Now you are able to fully explore this app. See the [program summary](/Documents/compiler/summary.md) to fully explore the capability of this app, or you can explore it yourself. 
 
-[__NAVIGATIONS__](/Documents/navigations.md)
+[__- NAVIGATIONS -__](/Documents/navigations.md)
