@@ -1,6 +1,12 @@
-################################################
-Summary of Gibberish Compiler for MCBE Scott CPU
-################################################
+############################
+Instruction Set and Binaries
+############################
+
+back to `world summary </Documents/world/summary.md>`_
+
+back to `compiler summary </Documents/compiler/summary.md>`_
+
+bark to `navigations </Documents/navigations.md>`_
 
 +-------------------------------------------+---------------------+--------------------+--------------+
 | Gibberish                                 | Binary              | Official Code      | Binary       |
