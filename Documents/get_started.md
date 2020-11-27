@@ -26,6 +26,8 @@ Now you are able to fully explore your world. See the [world summary](/Documents
    - Note that a certain compiler and a certain computer world may not be compatible. Refer to [versions list](/Documents/versions.rst) to see compatible world and compiler versions. 
 2. If you cannot figure out what to do. You probably need to stop doing commputer science. 
 
+Note: If the packaged application does not work, please ##compile from source## as instructed below. 
+
 ## Compile From Source
 1. Download __Processing__ from the [official website](https://processing.org).
 2. Download the [sourcecode](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU) from home page, or download the sourcecode for the [latest release](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/latest). 
