@@ -6,7 +6,7 @@ back to `world summary </Documents/world/summary.md>`_
 
 back to `compiler summary </Documents/compiler/summary.md>`_
 
-bark to `navigations </Documents/navigations.md>`_
+bark to [__- NAVIGATIONS -__](/Documents/navigations.md)
 
 +-------------------------------------------+---------------------+--------------------+--------------+
 | Gibberish                                 | Binary              | Official Code      | Binary       |
