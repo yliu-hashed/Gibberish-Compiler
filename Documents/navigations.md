@@ -9,10 +9,10 @@
 ## Computer World
 
 - [Summary](/Documents/world/summary.md)
-- [Releases](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/latest)
+- [Releases](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases)
 
 ## Gibberish Compiler
 
 - [Summary](/Documents/compiler/summary.md)
 - [Instruction Set and Binary](/Documents/compiler/instructions.rst)
-- [Releases](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases/latest)
+- [Releases](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases)
