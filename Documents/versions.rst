@@ -1,6 +1,8 @@
 Versions
 ========
 
+`- Navigations - </Documents/navigations.md>`_
+
 This file stated the versions of both the **compiler** and the **MC world**. This includes **Changes** of both projects as well as the the **compatibility** between those two. 
 
 +------------------------------------+------------+------------+------------------------------------+
@@ -18,3 +20,5 @@ This file stated the versions of both the **compiler** and the **MC world**. Thi
 | so every write and read will save  |            |            |                                    |
 | and write to 00.                   |            |            |                                    |
 +------------------------------------+------------+------------+------------------------------------+
+
+`- Navigations - </Documents/navigations.md>`_

@@ -6,6 +6,8 @@ World:
 [![Github release](https://img.shields.io/github/downloads/YuandaLiu-Hashed/MCBE-Scott-CPU-World/total.svg)](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World/releases)
 ![Github release](https://img.shields.io/github/repo-size/YuandaLiu-Hashed/MCBE-Scott-CPU-World.svg?color=blue)
 
+[__- NAVIGATIONS -__](/Documents/navigations.md)
+
 This is a Minecraft(bedrock) adoptation of the famous Scott CPU in the book **_But How Do It Know? The Basic Principles of Computers for Everyone_** by J. Clark Scott and Compiler called the **_Gibberish Compiler_** I made of this CPU. 
 
 __Get started [here](/Documents/get_started.md)__
@@ -22,6 +24,7 @@ This project is split into two parts:
 
 Compatibility of two part of the project between versions can be found here: [versions.rst](/Documents/versions.rst)
 
+__All documentations' links on this project can be found in [- NAVIGATIONS -](/Documents/navigations.md).__
 
 ## Scott Computer Minecraft World
 Note: the files of this Minecraft World exsists in a subrepo called _[MCBE-Scott-CPU](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World)_ (only documentation of that project exsist in this repo).
@@ -50,3 +53,5 @@ This program can also be a example of a effective application made by __Processi
 Note: Java may need to be installed for this program to run. 
 
 Instructions is __[here](/Documents/get_started.md#Gibberish-Compiler)__ if you want to get started.
+
+[__- NAVIGATIONS -__](/Documents/navigations.md)
