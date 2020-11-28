@@ -47,7 +47,7 @@ Instructions is __[here](/Documents/get_started.md#Scott-CPU-Minecraft-World)__ 
 ## Gibberish Compiler
 This compiler is made to compile basic programs for the Minecraft Computer. 
 
-![Example Image of a Multiplication Code](/Documents/images/image_000.png)
+![Example Image of a Multiplication Code](/Documents/images/image_001.png)
 
 This program made by using [Processing](https://processing.org) which is a program made for learning Java (highly reconmemded if you want to start coding). 
 This app can be a effective application to learn basic processing using my custom programming launguage I made called __Gibberish__. 
