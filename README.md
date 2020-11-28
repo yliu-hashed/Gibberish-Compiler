@@ -36,7 +36,7 @@ This is a Minecraft adoptation of the famous Scott CPU in the book But how do it
 ![Minecraft Computer](/Documents/images/image_004.png)
 ![Minecraft Computer](/Documents/images/image_005.png)
 
-The computer is binary compatible with the Scott CPU, with a modified IO port (see in the Documentations). 
+The computer is binary compatible with the Scott CPU, with a modified IO port ([more informations](/Documents/compiler/instructions.rst)). 
 
 It could be used as a teaching tool for teachers, or a gadget for someone like me to learn about computer architecture in a intuitive way. 
 
