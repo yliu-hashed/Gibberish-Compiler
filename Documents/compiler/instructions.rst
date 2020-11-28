@@ -2,11 +2,7 @@
 Instruction Set and Binaries
 ############################
 
-back to `world summary </Documents/world/summary.md>`_
-
-back to `compiler summary </Documents/compiler/summary.md>`_
-
-bark to `- NAVIGATIONS - </Documents/navigations.md>`_
+**NAVIGATIONS:** `Navigation Page </Documents/navigations.md>`_ | `World Summary </Documents/world/summary.md>`_ | `Compiler Summary </Documents/compiler/summary.md>`_
 
 +-------------------------------------------+---------------------+--------------------+--------------+
 | Gibberish                                 | Binary              | Official Code      | Binary       |
