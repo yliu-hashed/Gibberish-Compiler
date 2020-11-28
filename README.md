@@ -32,9 +32,20 @@ Note: the files of this Minecraft World exsists in a subrepo called _[MCBE-Scott
 This is a Minecraft adoptation of the famous Scott CPU in the book But how do it knows **_But How Do It Know? The Basic Principles of Computers for Everyone_**. 
 
 ![Minecraft Computer](/Documents/images/image_002.png)
+
+```LEFT: IO Decoder | RIGHT: RAM | CENTER BLOCK: ALU | FAR BACK TOWER: Stack | MIDDLE: Instruction Decoder```
+
 ![Minecraft Computer](/Documents/images/image_003.png)
+
+```FRONT LEFT: Stack | RIGHT BOTTOM: Multiplication Module | BACK LEFT: Instruction Decoder | CENTER BLOCK: ALU | RIGHT FRONT: IO Decoder```
+
 ![Minecraft Computer](/Documents/images/image_004.png)
+
+```FAR BACK: RAM | LEFT: Stack | RIGHT: ALU | MIDDLE: Instruction Decoders```
+
 ![Minecraft Computer](/Documents/images/image_005.png)
+
+```RIGHT HALF: RAM Editor | LEFT: Steper Control```
 
 The computer is binary compatible with the Scott CPU, with a modified IO port ([more informations](/Documents/compiler/instructions.rst)). 
 
