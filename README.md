@@ -32,6 +32,9 @@ Note: the files of this Minecraft World exsists in a subrepo called _[MCBE-Scott
 This is a Minecraft adoptation of the famous Scott CPU in the book But how do it knows **_But How Do It Know? The Basic Principles of Computers for Everyone_**. 
 
 ![Minecraft Computer](/Documents/images/image_002.png)
+![Minecraft Computer](/Documents/images/image_003.png)
+![Minecraft Computer](/Documents/images/image_004.png)
+![Minecraft Computer](/Documents/images/image_005.png)
 
 The computer is binary compatible with the Scott CPU, with a modified IO port (see in the Documentations). 
 
