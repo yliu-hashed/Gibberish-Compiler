@@ -275,13 +275,7 @@ class CodeBox extends scrollableObject {
 
     //curser type
     if (CO.onHover) {
-      if (mouseX > Position.x + Size.x - 10) {
-        cursor(ARROW);
-      } else if (mouseX > Position.x + Size.x - 200) {
-        cursor(CROSS);
-      } else {
-        cursor(TEXT);
-      }
+      cursor(TEXT);
     } else {
       cursor(ARROW);
     }
