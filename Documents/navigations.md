@@ -16,3 +16,6 @@
 - [Summary](/Documents/compiler/summary.md)
 - [Instruction Set and Binary](/Documents/compiler/instructions.rst)
 - [Releases](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases)
+
+## If you come from my website
+- [This Project's Page](https://yuandaliu.webflow.io/projects/mcscpu) (link projected to change)
