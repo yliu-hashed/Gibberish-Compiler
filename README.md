@@ -10,9 +10,13 @@ World:
 
 This is a Minecraft(bedrock) adoptation of the famous Scott CPU in the book **_But How Do It Know? The Basic Principles of Computers for Everyone_** by J. Clark Scott and Compiler called the **_Gibberish Compiler_** I made of this CPU. 
 
-__Get started [here](/Documents/get_started.md)__
+__[GET STARTED](/Documents/get_started.md)__
 
-__This project is in it's very early stage. Instructions and Documentations is expected to be missing or unclear.__
+Note: This project is in it's very early stage. Instructions and Documentations is expected to be missing or unclear.__
+
+## Download: [WorldFile](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU-World/releases) [GibberishCompiler](https://github.com/YuandaLiu-Hashed/MCBE-Scott-CPU/releases)
+
+Note: Although you can download it right away, [Get Started](/Documents/get_started.md) is very helpful.
 
 ## Project Structures
 This project is split into two parts: 
