@@ -6,7 +6,6 @@ void keyPressed() {
     }
     if (keyCode == CONTROL || keyCode == 157 || keyCode == 768) { //command and control
       keyControl = 0;
-      print("Control");
     }
     
   } else if (keyCode == TAB) {

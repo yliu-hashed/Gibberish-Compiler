@@ -24,7 +24,6 @@ void Save() {
     }
     saveStrings(programFileDirectory, lineArray);
   } else {
-    print("try save");
     selectOutput("Select a file to write to:", "fileSaveSelected");
   }
 }
@@ -38,20 +37,19 @@ void New() {
 void Open() {
   if (hasFileOpened) Save();
   selectInput("Select a file", "fileOpenSelected");
-  print("open");
 }
 
 public void fileSaveSelected(File selection) {
   if (selection == null) {
-    println("Window was closed or the user hit cancel.");
+    p("Window was closed or the user hit cancel.", true);
     return;
   }
-  print(selection.getAbsolutePath());
+  p(selection.getAbsolutePath(), true);
   File newSelection = new File(selection.getAbsolutePath() + ".gibberish");
   try { 
     newSelection.createNewFile();
   } catch (IOException a) {
-    println(a);
+    e(a.getMessage());
     return;
   }
   programFileDirectory = newSelection.getAbsolutePath();
@@ -63,15 +61,15 @@ public void fileSaveSelected(File selection) {
 
 public void fileOpenSelected(File selection) {
   if (selection == null) {
-    println("Window was closed or the user hit cancel.");
+    p("Window was closed or the user hit cancel.", true);
     return;
   }
   boolean acceptableFileExtention = selection.getName().endsWith(".gibberish") || selection.getName().endsWith(".txt");
   if (!acceptableFileExtention && selection.isFile()) {
-    println("Bad Selection");
+    p("Bad Selection", true);
     return;
   }
-  println("Loading file: " + selection.getAbsolutePath());
+  p("Loading file: " + selection.getAbsolutePath(), true);
   programFileDirectory = selection.getAbsolutePath();
   programFile = selection;
   Load();

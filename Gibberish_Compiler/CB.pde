@@ -20,10 +20,10 @@ String getFromClipboard() {
     try {
       data = (String) contents.getTransferData(DataFlavor.stringFlavor);
     } catch (UnsupportedFlavorException e1) {
-      println(e1);
+      e(e1.getMessage());
       return "";
     } catch (IOException e2) {
-      println(e2);
+      e(e2.getMessage());
       return "";
     }
   }

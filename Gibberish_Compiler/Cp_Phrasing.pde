@@ -12,7 +12,7 @@ class Phrasing {
     for (int i = AbsoluteLine.length() - 1; i >= 0; i--) {
       char currentChar = AbsoluteLine.charAt(i);
       boolean isMarker = false;
-      //print("a");
+      
       if (fieldStartingSignal.contains(String.valueOf(currentChar)) && Fielding != false) {
         Fielding = false;
         isMarker = true;

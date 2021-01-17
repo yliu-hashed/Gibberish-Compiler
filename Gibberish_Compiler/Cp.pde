@@ -25,7 +25,9 @@ class Compiler {
 
   void runCompiler() {
     String compileResult = compile();
-    println("Compiler Result: " + compileResult);
+    
+    p("Compiler Result: " + compileResult, true);
+    
     if (!compileResult.equals("Successed")) {
       MachineCode.add("Error");
       ErrorText = "Error: " + compileResult;
@@ -39,7 +41,7 @@ class Compiler {
     ErrorText = "";
     MachineCode = new ArrayList<String>();
 
-    println("Compiler Started");
+    p("Compiler Started", true);
 
     refreshGenericColorReference();
 
@@ -72,11 +74,11 @@ class Compiler {
         continue;
       }
 
-      println("Line " + lineNumber  + ":" + AbsoluteLine);
+      p("Line " + lineNumber  + ":" + AbsoluteLine, true);
 
       String phraseResult = P.phrasing(AbsoluteLine);
-      println("     >"+ phraseResult);
-      println("     |  " + P.backbone + " - " + P.valueFields);
+      p("     >"+ phraseResult, true);
+      p("     |  " + P.backbone + " - " + P.valueFields, true);
 
       //phrase the instruction
       if (!phraseResult.equals("Phraseing Successed")) {
@@ -184,8 +186,8 @@ class Compiler {
       }
 
       String MachineCodeReference = actionObj.getString("codex");
-      println("     >" + "Searched Successfully");
-      println("     |  " + MachineCodeReference + " - " + FieldMCode);
+      p("     >" + "Searched Successfully", true);
+      p("     |  " + MachineCodeReference + " - " + FieldMCode, true);
 
       //generate machine code
       String MachineCodeLine = MachineCodeReference;
@@ -193,8 +195,8 @@ class Compiler {
         MachineCodeLine = MachineCodeLine.replaceAll("#"+(fieldIndex+1), FieldMCode.get(fieldIndex));
       }
 
-      println("     >" + "Compiled Successfully");
-      println("     |  " + MachineCodeLine);
+      p("     >" + "Compiled Successfully", true);
+      p("     |  " + MachineCodeLine, true);
 
       MachineCode.add(MachineCodeLine);
       if (MachineCodeLine.length() > 0) {

@@ -93,7 +93,6 @@ void setup() {
 }
 
 void draw() {
-  
   frameRateManager.computeFramerate();
   frameRate = frameRateManager.frameRate;
   frameRate(frameRate);
