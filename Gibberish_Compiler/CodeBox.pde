@@ -281,9 +281,15 @@ class CodeBox extends scrollableObject {
     }
 
     //forward compiling request
-    if (millis() - lastEdited > compilerWaitTime && lastEdited != -1 && s.visible != true && autoCompile) {
-      compiler.runCompiler();
-      machineCodeBox.updateDisplayContent();
+    if (millis() - lastEdited > compilerWaitTime && lastEdited != -1 && s.visible != true) {
+      if (autoCompile) {
+        compiler.runCompiler();
+        machineCodeBox.updateDisplayContent();
+      }
+      if (autoSave) {
+        if (hasFileOpened) Save();
+      }
+      
       lastEdited = -1;
     }
   }
@@ -334,6 +340,7 @@ class CodeBox extends scrollableObject {
     frameRateManager.wrampUp(30);
     
     haveSelection = false;
+    fileSaved = false;
 
     lastEdited = millis();
   }

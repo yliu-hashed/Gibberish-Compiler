@@ -1,6 +1,5 @@
+import processing.javafx.*;
 import java.util.Collections;
-import javafx.stage.*;
-import javafx.scene.canvas.Canvas;
 PFont monoFont14;
 PFont displayFont50;
 
@@ -90,6 +89,7 @@ void setup() {
   objects.add(new NewButton());
   objects.add(new OpenButton());
   objects.add(new SaveButton());
+  objects.add(new AutoSaveButton());
 }
 
 void draw() {
@@ -102,6 +102,7 @@ void draw() {
   if (!currentScreenSize.hasSameValue(screenSize)) {
     screenSize.x = float(width);
     screenSize.y = float(height);
+    frameRateManager.wrampUp(60);
     screenSizeChanged = true;
   } else {
     screenSizeChanged = false;
@@ -131,6 +132,6 @@ void draw() {
   for (screenObject i : objects) {
     i.render();
   }
-
-  surface.setTitle(appName + " v" + appVersion + " - " + (hasFileOpened ? programFile.getName() : "New"));
+  
+  surface.setTitle((hasFileOpened ? programFile.getName() : "Untitled") + (fileSaved ? "" : " - Edited"));
 }

@@ -81,16 +81,37 @@ class SaveButton extends Button {
   }
 }
 
+class AutoSaveButton extends Toggle {
+  
+  void updateSize() {
+    Position = new CGPoint(165, 0.0);
+    Size = new CGSize(90.0, 30.0);
+    super.updateSize();
+  }
+  
+  AutoSaveButton() {
+    super("Auto Save", true);
+  }
+  
+  void changeTo(boolean newState) {
+    super.changeTo(newState);
+    autoSave = newState;
+    if (newState == true) {
+      if (hasFileOpened) Save();
+    }
+  }
+}
+
 class AutoCompileButton extends Toggle {
   
   void updateSize() {
-    Position = new CGPoint(screenSize.x - 90 - 51, 0.0);
-    Size = new CGSize(45.0, 30.0);
+    Position = new CGPoint(screenSize.x - 90 - 120, 0.0);
+    Size = new CGSize(120.0, 30.0);
     super.updateSize();
   }
   
   AutoCompileButton() {
-    super("Auto", true);
+    super("Auto Compile", true);
   }
   
   void changeTo(boolean newState) {

@@ -36,8 +36,6 @@ class Compiler {
 
   String compile() {
 
-    if (hasFileOpened) Save();
-
     ErrorText = "";
     MachineCode = new ArrayList<String>();
 

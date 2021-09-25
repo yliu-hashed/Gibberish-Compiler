@@ -1,6 +1,9 @@
 String programFileDirectory = "";
 File programFile;
 boolean hasFileOpened = false;
+boolean fileSaved = false;
+
+boolean autoSave = true;
 
 void Load() {
   String[] lineArray = loadStrings(programFileDirectory);
@@ -14,6 +17,7 @@ void Load() {
   }
   editor.EditingTextUpdate();
   hasFileOpened = true;
+  fileSaved = true;
 }
 
 void Save() {
@@ -22,6 +26,7 @@ void Save() {
     for (int i = 0; i < editor.Text.size(); i++) {
       lineArray[i] = editor.Text.get(i);
     }
+    fileSaved = true;
     saveStrings(programFileDirectory, lineArray);
   } else {
     selectOutput("Select a file to write to:", "fileSaveSelected");
@@ -31,6 +36,7 @@ void Save() {
 void New() {
   if (hasFileOpened) Save();
   hasFileOpened = false;
+  fileSaved = false;
   editor.Reset();
 }
 
@@ -55,6 +61,7 @@ public void fileSaveSelected(File selection) {
   programFileDirectory = newSelection.getAbsolutePath();
   programFile = newSelection;
   hasFileOpened = true;
+  fileSaved = true;
   Save();
   Load();
 }
